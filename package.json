@@ -10,7 +10,9 @@
     "lint": "ng lint",
     "prepare": "husky install",
     "prettier:format": "prettier --write \"**/*.{js,json,css,scss,ts,html,component.html}\"",
-    "prettier:check": "prettier \"**/*.{js,json,css,scss,ts,html,component.html}\" --list-different"
+    "prettier:check": "prettier \"**/*.{js,json,css,scss,ts,html,component.html}\" --list-different",
+    "scully": "npx scully --",
+    "scully:serve": "npx scully serve --"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +24,9 @@
     "@angular/platform-browser": "~12.0.0",
     "@angular/platform-browser-dynamic": "~12.0.0",
     "@angular/router": "~12.0.0",
+    "@scullyio/init": "^1.1.4",
+    "@scullyio/ng-lib": "^1.0.0",
+    "@scullyio/scully": "^1.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
