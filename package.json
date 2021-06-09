@@ -11,7 +11,7 @@
     "prepare": "husky install",
     "prettier:format": "prettier --write \"**/*.{js,json,css,scss,ts,html,component.html}\"",
     "prettier:check": "prettier \"**/*.{js,json,css,scss,ts,html,component.html}\" --list-different",
-    "scully": "npx scully --",
+    "scully": "npx scully --scanRoutes",
     "scully:serve": "npx scully serve --"
   },
   "private": true,
