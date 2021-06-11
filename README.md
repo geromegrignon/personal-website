@@ -1,5 +1,7 @@
 # My Personal Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/635d0c9f-3673-42ae-beaa-abef84a26be0/deploy-status)](https://app.netlify.com/sites/gerome-personal-website/deploys)
+
 
 ## Development server
 
