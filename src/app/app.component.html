@@ -1,1 +1,8 @@
-<router-outlet></router-outlet>
+<header>
+  <a class="navigation-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">HOME</a>
+  <a class="navigation-link" routerLink="/blog" routerLinkActive="active">BLOG</a>
+  <a class="navigation-link" routerLink="/about" routerLinkActive="active">ABOUT</a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>

@@ -1,0 +1,26 @@
+header {
+  align-items: center;
+  display: flex;
+  font-family: Monaco, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 4rem;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+.navigation-link {
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+.active,
+.navigation-link:hover {
+  text-decoration: underline;
+}
