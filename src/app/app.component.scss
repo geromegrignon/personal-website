@@ -15,6 +15,7 @@ header {
 }
 
 .navigation-link {
+  border-bottom: 2px solid #fac564;
   color: #fff;
   position: relative;
   text-decoration: none;
@@ -22,5 +23,5 @@ header {
 
 .active,
 .navigation-link:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #fff;
 }
