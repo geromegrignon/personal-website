@@ -1,20 +1,15 @@
 [
+  { "route": "/" },
+  { "route": "/about" },
   { "route": "/blog" },
   {
-    "route": "/blog/2021-06-08-blog",
-    "title": "2021-06-08-blog",
-    "description": "blog description",
+    "route": "/blog/hello-world",
+    "title": "Hello World!",
+    "description": "Welcome to my blog",
     "published": true,
-    "slugs": ["___UNPUBLISHED___kpois88a_GQmCOFogAzkCQ2JWvnpw1rrEFr7feOly"],
-    "sourceFile": "2021-06-08-blog.md"
-  },
-  {
-    "route": "/blog/___UNPUBLISHED___kpois88a_GQmCOFogAzkCQ2JWvnpw1rrEFr7feOly",
-    "title": "2021-06-08-blog",
-    "description": "blog description",
-    "published": true,
-    "slugs": ["___UNPUBLISHED___kpois88a_GQmCOFogAzkCQ2JWvnpw1rrEFr7feOly"],
-    "sourceFile": "2021-06-08-blog.md"
-  },
-  { "route": "/" }
+    "slug": "hello-world",
+    "coverSmall": "hello-small.jpeg",
+    "coverLarge": "hello-large.jpeg",
+    "sourceFile": "2021-06-08-hello-world.md"
+  }
 ]

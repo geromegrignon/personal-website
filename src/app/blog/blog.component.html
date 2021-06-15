@@ -1,3 +1,8 @@
-<a *ngFor="let route of scullyRoutes$ | async" [routerLink]="route.title">
-  {{route.title}}
-</a>
+<section>
+  <a *ngFor="let route of blogRoutes$ | async" [routerLink]="route.route">
+    <img src="assets/images/{{route.coverSmall}}" alt="">
+    <h3>{{route.title}}</h3>
+    <p>{{route.description}}</p>
+  </a>
+</section>
+
