@@ -1,3 +1,13 @@
 :host {
-  // to complete
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-content {
+  width: 80%;
+}
+
+img {
+  width: 100%;
 }

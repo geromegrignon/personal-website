@@ -9,6 +9,8 @@ coverLarge: 'hello-large.jpeg'
 
 # Hello World!
 
+![alt text](assets/images/hello-large.jpeg "Logo Title Text 1")
+
 Photo by <a href="https://unsplash.com/@drew_beamer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Drew Beamer</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
