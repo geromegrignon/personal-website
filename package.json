@@ -13,7 +13,7 @@
     "prettier:check": "prettier \"**/*.{js,json,css,scss,ts,html,component.html}\" --list-different",
     "scully": "npx scully --scanRoutes",
     "scully:serve": "npx scully serve --",
-    "build-scully": "npm run build && npm run scully"
+    "scully:build": "npm run build && npm run scully"
   },
   "private": true,
   "dependencies": {
