@@ -1,6 +1,6 @@
 <section>
   <a *ngFor="let route of blogRoutes$ | async" [routerLink]="route.route">
-    <img src="assets/images/{{route.coverSmall}}" alt="">
+    <img src="assets/images/{{route.coverSmall}}" preload alt="">
     <h3>{{route.title}}</h3>
     <p>{{route.description}}</p>
   </a>
