@@ -1,6 +1,18 @@
 import { Component } from '@angular/core';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faGithub, faMedium, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faMedium,
+  faStackOverflow,
+  faTwitter,
+  faLinkedin,
+  faAngular,
+  faBattleNet,
+  faDiscord,
+  faJs,
+  faNodeJs,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +21,18 @@ import { faGithub, faMedium, faStackOverflow, faTwitter } from '@fortawesome/fre
 })
 export class AppComponent {
   constructor(private library: FaIconLibrary) {
-    library.addIcons(faStackOverflow, faGithub, faMedium, faTwitter);
+    library.addIcons(
+      faStackOverflow,
+      faGithub,
+      faMedium,
+      faTwitter,
+      faLinkedin,
+      faAngular,
+      faBattleNet,
+      faDiscord,
+      faJs,
+      faNodeJs,
+      faYoutube,
+    );
   }
 }

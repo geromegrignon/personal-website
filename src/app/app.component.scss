@@ -15,13 +15,13 @@ header {
 }
 
 .navigation-link {
-  border-bottom: 2px solid #fac564;
-  color: #fff;
+  border-bottom: 2px solid #fff;
+  color: #707070;
   position: relative;
   text-decoration: none;
 }
 
 .active,
 .navigation-link:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fac564;
 }
